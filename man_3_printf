@@ -1,0 +1,54 @@
+.TH man 3 printf "October 27/2020" "1.00" "_printf() man page"
+.SH NAME
+.B _printf
+-Implementation of printf function
+.SH SYNOPSIS
+_printf()
+.SH DESCRIPTION
+Function _printf() produces an output based on a format and/or options given
+.SH OPTIONS
+.B %c
+- Prints a character (char)
+.br
+.B %s
+- Prints a string (char *)
+.br
+.B %d
+- Prints a number (decimal) (int)
+.br
+.B %i
+- Prints a number (integer) (int)
+.br
+.B %u
+- Prints a number (unsigned integer) (unsigned int)
+.br
+.B %o
+- Prints a number (octal) (int)
+.br
+.B %x
+- Prints a number (hexadecimal [lowercase]) (int)
+.br
+.B %X
+- Prints a number (hexadecimal [uppercase]) (int)
+.br
+.B %p
+- Prints a the value of a pointer (long)
+.br
+.B %b
+- Prints a number (binary) (int)
+.br
+.B %S
+- Prints a string replacing the non printable characters by \x then the address (char *)
+.br
+.B %r
+- Prints a string in reverse (char *)
+.br
+.B %R
+- Prints a string in ROT13 cipher (char *)
+.br
+.SH SEE ALSO
+printf(3)
+.SH BUGS
+There's a few bugs for this function
+.SH AUTHOR
+Juan Sebastian Toro Rodriguez
